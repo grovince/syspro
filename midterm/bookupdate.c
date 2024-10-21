@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
       exit(2);
    }
 
-      do {
       printf("0 bookId: borrow book, 1 bookId: return book ) ");
+      do {
       if (scanf("%d %d",&num, &id) == 1) {
 		  if (num  == 0){
 			  printf("You've got bellow book..\n)");
